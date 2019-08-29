@@ -49,7 +49,7 @@ public class A1Novice {
 				
 			}
 		
-		System.out.println(first_initial + "." + last_name + ":" + String.format("%.2f", print));	
+		System.out.println(first_initial + ". " + last_name + ": " + String.format("%.2f", print));	
 		
 		}
 		

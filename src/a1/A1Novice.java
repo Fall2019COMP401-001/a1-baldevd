@@ -10,7 +10,7 @@ public class A1Novice {
 		
 		int count_customers = scan.nextInt();
 		
-		for (int i = 0; i <= count_customers; i++) {
+		for (int i = 0; i < count_customers; i++) {
 		
 			char first_initial = scan.next().charAt(0);
 		
@@ -48,11 +48,8 @@ public class A1Novice {
 				print += receipt[l];
 			}
 		
-			System.out.println(first_initial + ". ");
-			System.out.println(last_name + ": ");
-			System.out.println(print);
-		
-		
+			System.out.println(first_initial + ". " + last_name + ": " + print);
+			
 	}
 	
 	scan.close();

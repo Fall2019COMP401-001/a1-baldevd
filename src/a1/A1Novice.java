@@ -46,15 +46,17 @@ public class A1Novice {
 			for (int l = 0; l < total_amount; l++) {
 			
 				print += receipt[l];
+				
 			}
 		
-			System.out.println(first_initial + ". " + last_name + ": " + print);
-			
-	}
-	
-	scan.close();
+		System.out.println(first_initial + "." + last_name + ":" + String.format("%.2f", print));	
 		
-	}
+		}
+		
+		scan.close();
+		
+		
+	}	
 	
 }
 	

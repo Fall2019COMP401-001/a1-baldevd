@@ -83,7 +83,7 @@ public class A1Adept {
 		
 		System.out.println("Biggest: " + first_names[index_shopper_max] + " " + last_names[index_shopper_max] + " " + "(" + maximum_formatted + ")");
 		System.out.println("Smallest: " + first_names[index_shopper_min] + " " + last_names[index_shopper_min] + " " + "(" + minimum_formatted + ")");
-		System.out.println("Averge: " + average_formatted);
+		System.out.println("Average: " + average_formatted);
 		
 	}
 	

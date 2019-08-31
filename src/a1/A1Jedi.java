@@ -95,7 +95,7 @@ public class A1Jedi {
 				
 				System.out.println("No customers bought " + name_of_item[i]);
 				
-			} else for (int j=0; j<10; j++) {
+			} else for (int j=0; j<100; j++) {
 				
 				if (item_count[i] == j) {
 					
